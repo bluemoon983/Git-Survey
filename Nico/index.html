@@ -3,15 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
     <title>Vitoryduck</title>
 </head>
 <body>
-    <form id="login-form">
-        <input required maxlength="15" type="text" placeholder="이름 써라"/>
+    <form class="hidden" id="login-form">
+        <input required 
+        maxlength="15" 
+        type="text" 
+        placeholder="이름 써라"
+        />
         <input type="submit" value="Log In"/>
     </form>
+    <h2 id="clock">00:00</h2>
+    <h1 id="greeting" class="hidden"></h1>
+     <form id ="todo-form">
+        <input type = "text" placeholder="할일을 적고 엔터 누르셈" required/>
+     </form>
+     <ul id = "todo-list">
+     </ul>
+    <div id = "quote">
+        <span></span>
+        <span></span>
     </div>
-    <script src="potato.js"></script>
+    <script src = "javascripts/quotes.js"></script>
+    <script src = "javascripts/potato.js"></script>
+    <script src = "javascripts/clock.js"></script>
+    <script src = "javascripts/backgroud.js"></script>
+    <script src = "javascripts/todo.js"></script>
 </body>
 </html>

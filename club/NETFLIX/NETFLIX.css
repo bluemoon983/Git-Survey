@@ -1,0 +1,159 @@
+body{
+    height: 90vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)),
+    url("/club/img/넷플-배경.jpg") no-repeat center;
+    background-size: cover;
+    margin: 0;
+}
+#or {
+    color: darkgray;
+    margin-top: 15px;
+    margin-left: -15px;
+}
+.box {
+    width: 45vh;
+    height: 530px;
+    padding: 60px;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    left: 50%;
+    top: 45%;
+    transform: translate(-50%,-35%);
+    text-align: center;
+    display: grid;
+}
+.img-NETFLIX{
+    position: absolute;
+    left: 170px;
+    top: 20px;
+    color: red;
+}
+
+a.find-secret{
+    color: white;
+    margin-top: 10px;
+    text-decoration-line: none;
+}
+
+a.find-secret :link{
+    color: white;
+}
+
+a.find-secret :visited{
+    color: white;
+}
+
+a.find-secret :hover{
+    color: gray;
+    text-decoration: underline;
+}
+
+.checkbox {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    margin-top: 20px;
+    z-index: 1;
+}
+
+.box > #login{
+    color: white;
+    text-align: left;
+    margin-top: -10px;
+}
+
+.box > #login-button{
+    color: white;
+    background-color: red;
+    border-color: red;
+    width: 308px;
+    height: 40px;
+    margin-top: 20px;
+}
+
+.box > #or-button{
+    color : whitesmoke;
+    background-color: rgba(128, 128, 128, 0.819);
+    border-color: rgba(128, 128, 128, 0.819);
+    width: 306px;
+    height: 40px;
+    margin-top: 15px;
+    opacity: 0.7;
+}
+
+#login-save{
+    color: white;
+    margin-top: -27px;
+    margin-left: -130px;
+}
+
+#guess{
+    color: rgba(255, 255, 255, 0.7);
+    margin-top: 10px;
+    margin-left: -143px;
+    font-size: 1rem;
+}
+
+a.rkdlq{
+    position: absolute;
+    top: 480px;
+    left: 250px;
+    color: white;
+    font-size: 1rem;
+    text-decoration-line: none;
+}
+
+a.rkdlq :link{
+    color: white;
+}
+
+a.rkdlq :visited{
+    color: white;
+}
+
+#id{
+    height: 45px;
+    width: 300px;
+    background-color: black;
+    border-color: gray;
+    color: white;
+    margin-top: 5px;
+}
+
+#password{
+    height: 45px;
+    width: 300px;
+    background-color: black;
+    border-color: gray;
+    color: white;
+    margin-top: 15px;
+}
+
+#robot{
+    color: #8c8c8c;
+    font-size: 13px;
+    margin-left: -115px;
+}
+
+#protect{
+    font-size: 13px;
+    color:  #8c8c8c;
+    margin-top: 25px;
+    margin-left: -50px;
+}
+
+a.more-information{
+    position: relative;
+    font-size: 13px;
+    top: -22px;
+    left: 101px;
+    text-decoration-line: none;
+}
+
+a.more-information :link{
+    color: #0071eb;
+}
+
+a.more-information:visited{
+    color: #0071eb;
+}

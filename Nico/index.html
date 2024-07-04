@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel ="stylesheet" href = "/Nico/css/style.css" />
+    <link rel="icon" href="/Nico/img/JSICON.png"> 
+    <title>ToDoList</title>
+</head>
+<body>
+    <div class = "box">
+        <form class = "hidden" id="login-form">
+            <input
+            required
+            maxlength="15" 
+            type="text" 
+            placeholder="NAME"
+            style="width:250px;height:25px;font-size:15px;"/>
+            <input id = "button" type="submit" value="Log In" />
+        </form>
+        <h2 id="clock" width: 300px>00:00</h2>  
+        <h1 class = "hidden" id = "greeting"></h1>
+        <form id="todo-form">
+            <input type="text" placeholder="TO DO" required
+            style="width:250px;height:25px;font-size:15px;" />
+        </form>
+        <ul id = "todo-list"></ul>
+        <div id="quote">
+            <span id = "quote-wise"></span>
+            <span id= "famous-name"></span> 
+        </div> 
+    </div>
+    <script src= "javascripts/potato.js"></script>
+    <script src= "/Nico/javascripts/clock.js"></script>
+    <script src = "/Nico/javascripts/quotes.js"></script>
+    <script src = "javascripts/todo.js"></script>
+</body>
+</html>
